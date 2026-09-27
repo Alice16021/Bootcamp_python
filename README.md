@@ -27,7 +27,7 @@ Por isso, a avaliação do projeto foi focada em:
 3. **Explicabilidade:**
    - Utilização do **SHAP (SHapley Additive exPlanations)** para mapear quais variáveis (ex: componentes de PCA como `V1`, `V2`, etc.) mais influenciaram na classificação de uma transação como fraude.
 
-## 📊 Resultados
+##  Resultados
 
 | Modelo | Precisão (Fraude) | Recall (Fraude) | F1-Score |
 | :--- | :---: | :---: | :---: |
@@ -35,14 +35,14 @@ Por isso, a avaliação do projeto foi focada em:
 | XGBoost | 0.92 | 0.90 | 0.91 |
 | Random Forest + SMOTE | 0.89 | 0.89 | 0.89 |
 
-## 🚀 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - Python
 - Pandas & NumPy
 - Scikit-Learn
 - XGBoost
 - Imbalanced-Learn (SMOTE)
-- SHAP (Explicabilidade)
+- SHAP
 - Matplotlib & Seaborn
 
 ---
